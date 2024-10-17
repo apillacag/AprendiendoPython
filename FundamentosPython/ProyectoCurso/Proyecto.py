@@ -24,11 +24,12 @@ for i in range(N):
         if nota < menor:
             menor = nota
         sumaNotas += nota
+        
     if sumaNotas/M < 10.5:
         print("Ha desaprobado el curso")
     else:
         print("Felicitaciones, ha aprobado el curso")
-        
+
     print("La mayor nota del alumno {} es: {}".format(i+1,mayor))
     print("La menor nota del alumno {} es: {}".format(i+1,menor))
     
